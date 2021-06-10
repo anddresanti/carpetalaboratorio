@@ -1,0 +1,249 @@
+body{
+    margin: 0px;
+    background-color: var(--blanco);
+    padding: 0px;
+}
+
+
+.titulo{
+    font-size: 75px;
+    font-family: var(--fuente);
+    margin: 10px;
+    margin-right: 490px;
+    align-items: flex-start;
+}
+
+:root{
+    --celeste: skyblue;;
+    --blanco: cornsilk;
+    --negro: black;
+    --verde: springgreen;
+    --fuente: 'Staatliches';
+}
+.menu {
+    width: auto;
+    height: auto;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contenedor1_menu{
+    margin-right: 20px;
+}
+
+.contenido_menu{
+    list-style: none;
+    display: flex;
+}
+
+.contenido_menu li{
+    margin: 20px;
+}
+
+.contenido_menu a{
+    font-family: var(--fuente);
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--negro);
+}
+
+.contenido_menu :hover{
+    color: var(--blanco);
+    transition: 200ms;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    height: auto;
+    width: auto;
+    background-color: var(--blanco);
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px dotted var(--celeste);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tarjetabeneficios{
+    height: 280px;
+    width: 150px;
+    background-color: var(--blanco);
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px dotted var(--celeste);
+    margin-right: 20px;
+}
+
+.tarjeta img{
+    padding-left: 30px;
+    width: 90px;
+}
+
+.tarjeta p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.title{
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 120px;
+    font-size: 70px;
+}
+
+.tarjeta:hover{
+    background-color: var(--verde);
+    color: white;
+    transition: 540ms;
+}
+
+.tarjeta a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+    background-color: palegreen;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.boton{
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 20px;
+    background-color: palegreen;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.botonindex{
+    text-decoration: none;
+    font-family: var(--fuente);
+    height: 50px;
+    width: 100px;
+    color: var(--negro);
+    font-size: 20px;
+    background-color: var(--verde);
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.Titulo{
+    color: var(--negro);
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: var(--fuente);
+}
+
+.Tarjetas{
+    margin: 10px;
+    border: 4px dotted var(--celeste);
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    width: 450px;
+    height: 210px;
+    background-color: var(--blanco);
+}
+
+.Tarjetas img{
+    width: 150px;
+    border-radius: 80px;
+    margin-right: 30px;
+}
+
+.Contenido h3{
+    color: var(--blanco);
+    font-size: 32px;
+    text-align: center  ;
+}
+
+.Contenido p{
+    text-align: justify;
+    align-content: flex-start;
+    color: var(--negro);
+}
+
+.Contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menuconocenos{
+    margin-top: 20px;
+    background-color: var(--blanco);
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.contenedorconocenos{
+    justify-content: space-between;
+}
+
+.menuconocenos img{
+    width: 70%;
+    margin-right: 20px;
+}
+
+
+.contenidomision h1{
+    font-size: 120px;
+    font-family: var(--fuente);
+    color: var(--negro);
+}
+
+.contenidomision p{
+    font-size: 30px;
+    font-family: var(--fuente);
+}
+
+
+.contenidovision p{
+    font-size: 30px;
+    font-family: var(--fuente);
+}
+
+.contenidovision h1{
+    font-size: 120px;
+    font-family: var(--fuente);
+    color: var(--negro);
+}
+
+.contenedorproductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contenidoju h4{
+    font-family: var(--fuente);
+    font-size: 20px;
+}
+
+.contenidoju p{
+    font-family: var(--fuente);
+}
+
+.contenidoju{
+    height: 280px;
+    width: 150px;
+    background-color: var(--blanco);
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px dotted var(--celeste);
+    margin-right: 20px;
+}
